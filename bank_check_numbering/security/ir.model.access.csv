@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_journal_user,account.journal.user,account.model_account_journal,account.group_account_user,1,1,0,0
+access_account_journal_manager,account.journal.manager,account.model_account_journal,account.group_account_manager,1,1,1,1
+access_account_move_user,account.move.user,account.model_account_move,account.group_account_user,1,1,1,0
+access_account_move_manager,account.move.manager,account.model_account_move,account.group_account_manager,1,1,1,1
